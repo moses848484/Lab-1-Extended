@@ -1,0 +1,52 @@
+/* General styles */
+body {
+    background-image: url('dash.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+.temptext {
+    color: #e4af00;
+}
+
+.temptxt {
+    color: #04AA6D;
+}
+
+/* Submit button */
+.submitbtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2c6448;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitbtn:hover {
+    background-color: #e4af00;
+}
+
+.list {
+    color: transparent;
+}
+
+.temptitle {
+    color: white;
+}
+
+.humidity {
+    width: 55px;
+    display: block;
+    margin: -12px auto 0 auto; /* Center the logo and adjust margins */
+}
